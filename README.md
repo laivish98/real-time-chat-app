@@ -84,15 +84,18 @@ real-time-chat-app/
 
 
 ```
+---
 📸 Output Screenshots
+---
 🧑‍💻 Join Page
+
 <img width="593" height="307" alt="Image" src="https://github.com/user-attachments/assets/e94cac08-ba51-46b8-9489-98c7186b39cf" />
 
-
+---
 💬 Chat Interface
 <img width="737" height="825" alt="Image" src="https://github.com/user-attachments/assets/af54d7eb-8032-4972-bdd2-d24d212ba1ee" />
 
-
+---
 📡 Real-Time Messaging
 <img width="847" height="659" alt="Image" src="https://github.com/user-attachments/assets/81da9905-218d-4592-b5da-64e89d0d266f" />
 
