@@ -1,0 +1,144 @@
+/* 🌈 Gradient Background */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(-45deg, #7f5af0, #2cb67d, #6246ea, #00b4d8);
+  background-size: 400% 400%;
+  animation: gradientBG 20s ease infinite;
+  transition: background 0.5s ease;
+}
+
+/* 🎯 Chat Container - Centered with Dark Style */
+.chat-container {
+  max-width: 500px;
+  margin: 40px auto;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  background-color: #1e293b; /* Dark blue-gray */
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+}
+
+/* 🧠 Header Bar */
+.chat-header {
+  background-color: #334155; /* Slightly lighter dark */
+  color: white;
+  padding: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* 💬 Chat Messages */
+.chat-box {
+  flex: 1;
+  overflow-y: auto;
+  padding: 18px;
+  background-color: #1e293b;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* 🧍 Message Block */
+.chat-message {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  max-width: 80%;
+}
+
+.chat-message.self {
+  margin-left: auto;
+  flex-direction: row-reverse;
+}
+
+/* 👤 Avatar Circle */
+.avatar {
+  width: 36px;
+  height: 36px;
+  background-color: #475569;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+/* 📧 Message Bubble */
+.message-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.sender-name {
+  font-size: 11px;
+  color: #9ca3af;
+}
+
+.bubble {
+  background-color: #475569;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 16px;
+  word-break: break-word;
+  max-width: 100%;
+}
+
+.chat-message.self .bubble {
+  background-color: #22c55e; /* Light green for sender */
+  color: #fff;
+  text-align: right;
+}
+
+/* ⌨️ Input Section */
+.chat-input {
+  display: flex;
+  padding: 14px;
+  border-top: 1px solid #334155;
+  background-color: #0f172a;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #475569;
+  border-radius: 8px;
+  outline: none;
+  background-color: #1e293b;
+  color: white;
+}
+
+.chat-input input::placeholder {
+  color: #94a3b8;
+}
+
+.chat-input button {
+  margin-left: 10px;
+  padding: 10px 16px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.chat-input button:hover {
+  background-color: #2563eb;
+}
+
+/* 🌠 Background Animation Keyframes */
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
