@@ -69,8 +69,6 @@ Now open the app on another device using your PC's IP:
 
 
 📁 Project Structure
-bash
-Copy code
 real-time-chat-app/
 ├── client/
 │   ├── public/
